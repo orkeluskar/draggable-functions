@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Draggable - Omkar</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <script src="drag.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s1 m1 "></div>
+            <div class="col s10 m10">
+                <h4 align="center">Simple Draggable UI</h4>
+                <div ondrop="drop(event)" ondragover="allowDrop(event)" id="expression-area"></div>
+                <div id="function-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div class="draggable-functions" id="add" draggable="true" ondragstart="drag(event)">add</div>
+                    <div class="draggable-functions" id="subtract" draggable="true" ondragstart="drag(event)">subtract</div>
+                    <div class="draggable-functions" id="foo" draggable="true" ondragstart="drag(event)">foo</div>
+                    <div class="draggable-functions" id="doSomethingComplicated" draggable="true" ondragstart="drag(event)">doSomethingComplicated</div>
+                </div>
+            </div>
+            <div class="col s1 m1 "></div>
+        </div>
+    </div>
+</body>
+</html>

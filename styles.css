@@ -1,0 +1,38 @@
+#expression-area{
+    
+    width: 50vw;
+    height: 50vh;
+    border-style: solid;
+    border-color: black;
+}
+.container{
+    margin-top: 50px;
+}
+#function-list{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content:space-evenly;
+}
+.draggable-functions{
+
+    border-style: solid;
+    border-color: rgb(49, 32, 32);
+    
+    display: inline-block;
+}
+.empty-args{
+    min-height: 50px;
+    max-height: 100%;
+    min-width: 100px;
+    max-width: 100%;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+}
+.space-evenly{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content:space-evenly;
+}
